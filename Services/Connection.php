@@ -3,7 +3,7 @@ class ConnectionBase
 {
     private $bdd;
     public function __construct() 
-    {
+    {// Test
          $this->bdd = new PDO('mysql:host=localhost;dbname=concert', 'root', '');
     }
   
